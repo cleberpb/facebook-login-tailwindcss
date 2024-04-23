@@ -5,22 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facebook Login - Tailwindcss</title>
     <link href="./output.css" rel="stylesheet">
+    <link rel="shortcut icon" href="imagens/facebook.png" type="image/x-icon">
 </head>
 <body>
 
-    <div class="w-screen h-screen bg-gray-facebook flex items-center justify-center">
-        <div>
-            <h1 class="text-blue-facebook">Facebook</h1>
-            <h2>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h2>
+    <div class="w-screen h-screen bg-gray-facebook flex items-center justify-center flex-col md:flex-row">
+        <div class="w-96 pr-8 text-center md:w-580 md:text-left">
+            <h1 class="text-blue-facebook font-bold text-5xl mb-3">facebook</h1>
+            <h2 class="text-2xl text-black">O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h2>
         </div>
 
-        <div>
-            <input>
-            <input>
-            <button>Entrar</button>
-            <a href="#">Esqueceu a senha</a>
-            <hr>
-            <button>Criar nova conta</button>
+        <div class="bg-white p-4 w-380 rounded-md flex items-center justify-center flex-col shadow-lg mt-5">
+            <input placeholder="Email ou telefone" class="input-facebook outline-none rounded-md focus:border-blue-facebook">
+            <input placeholder="Senha" class="input-facebook outline-none rounded-md focus:border-blue-facebook">
+            <button class="h-12 w-full bg-blue-facebook rounded-md text-white font-bold">Entrar</button>
+            <a href="#" class="text-blue-facebook cursor-pointer mt-4 hover:underline">Esqueceu a senha?</a>
+            <hr class="w-full mt-3 border-gray-300 border-1">
+            <button class="h-12 bg-green-facebook rounded-md text-white px-4 mt-5 font-bold">Criar nova conta</button>
         </div>
     </div>
     
