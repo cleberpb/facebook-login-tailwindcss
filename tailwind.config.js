@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'blue-facebook': '#1877f2'
+        'blue-facebook': '#1877f2',
+        'gray-facebook': '#f0f2f5'
       }
     },
   },
